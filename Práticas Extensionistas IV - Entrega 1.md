@@ -1,0 +1,45 @@
+# Práticas Extensionistas IV - Entrega 1
+
+Este repositório contém os artefatos da Entrega 1 do projeto de Práticas Extensionistas IV.
+
+## Integrantes do Grupo
+
+- [Nome do Integrante 1]
+- [Nome do Integrante 2]
+- [Nome do Integrante 3]
+
+## Conteúdo da Entrega
+
+1. Diagrama UML de Pacotes (Arquitetura da Aplicação)
+2. Diagrama de Arquitetura de Implantação
+3. Diagrama de Arquitetura DevOps
+4. Descrição e Justificativa da Infraestrutura Cloud Escolhida
+
+## Como Visualizar
+
+Os diagramas estão em formato de imagem e o documento final será um PDF.
+
+
+
+### Diagrama UML de Pacotes (Arquitetura da Aplicação)
+
+![Diagrama de Pacotes](https://private-us-east-1.manuscdn.com/sessionFile/7bXsaww3YpVysbNPMpUvGu/sandbox/SghKmoJvNC2MH20TE0SwMS-images_1759686210194_na1fn_L2hvbWUvdWJ1bnR1L1ByYXRpY2FzRXh0ZW5zaW9uaXN0YXNJVi9kaWFncmFtYV9wYWNvdGVz.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvN2JYc2F3dzNZcFZ5c2JOUE1wVXZHdS9zYW5kYm94L1NnaEttb0p2TkMyTUgyMFRFMFN3TVMtaW1hZ2VzXzE3NTk2ODYyMTAxOTRfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwxQnlZWFJwWTJGelJYaDBaVzV6YVc5dWFYTjBZWE5KVmk5a2FXRm5jbUZ0WVY5d1lXTnZkR1Z6LnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=bX3y3LWv1CcZqfuG5xvmW5b0sQkAWvDJesyNcHK~N7arEs4gA~qjsX02JEM~C0UJ4MbxtBvhPIAsrmWqINFxnuAO8KlDPclbXQbiaDVK4YfECxOU5ie04lrxPD2-dTGT3R95LF8w4ANo8GxhUNmkM8GOjQQK52rWA1up27njY10VYEkQa--o2FiIdGYeCWCaO4i7Rg3lq~Gn9CfHj97OLBlHxA9vJfIDq0ACy~eXjeF9fCB89wlrQCT8KQP0Flqc9v1Cm36nz6zov0QYqSKKaS0cKOE80gbu99GT-N0HVKT94Qb8fQABCzARa~~J-6ONkn5thVQI5nIO29B-qhcLkg__)
+
+
+
+### Diagrama de Arquitetura de Implantação
+
+![Diagrama de Implantação](https://private-us-east-1.manuscdn.com/sessionFile/7bXsaww3YpVysbNPMpUvGu/sandbox/SghKmoJvNC2MH20TE0SwMS-images_1759686210195_na1fn_L2hvbWUvdWJ1bnR1L1ByYXRpY2FzRXh0ZW5zaW9uaXN0YXNJVi9kaWFncmFtYV9pbXBsYW50YWNhbw.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvN2JYc2F3dzNZcFZ5c2JOUE1wVXZHdS9zYW5kYm94L1NnaEttb0p2TkMyTUgyMFRFMFN3TVMtaW1hZ2VzXzE3NTk2ODYyMTAxOTVfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwxQnlZWFJwWTJGelJYaDBaVzV6YVc5dWFYTjBZWE5KVmk5a2FXRm5jbUZ0WVY5cGJYQnNZVzUwWVdOaGJ3LnBuZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=WaIuocQcp2mhfmUadlSRXANZW~4w3200q18nz15TD0NRyKy8DRHMJYWrJTWTpaEBbPMT2IJkhZtdS90k-PawK5hj-J8pulZWE2FbqEoNu-TITmiYRpcip~2uk1DTL~i-sbGFPZEysPduCNBWsPOw2x2btNdmlDVjyJtjYNDrEGNHI-Qy8-WipCfPtz0SlRbtq3VloOJTmiU-VFxnygkA~yp6OIQjidh89Lk~ZDF-xI3TqcEUx~hvLSKyqSvL4D3WtrpakEwoGrBxkHrH96BLgSM6XFD4s7ZRnz-VVZ5n5rPnQXx4~Z78GC8L3FfPegFVODw2zWkpcZ9XAYbbjgSC4w__)
+
+
+
+### Diagrama de Arquitetura DevOps
+
+![Diagrama DevOps](https://private-us-east-1.manuscdn.com/sessionFile/7bXsaww3YpVysbNPMpUvGu/sandbox/SghKmoJvNC2MH20TE0SwMS-images_1759686210196_na1fn_L2hvbWUvdWJ1bnR1L1ByYXRpY2FzRXh0ZW5zaW9uaXN0YXNJVi9kaWFncmFtYV9kZXZvcHM.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvN2JYc2F3dzNZcFZ5c2JOUE1wVXZHdS9zYW5kYm94L1NnaEttb0p2TkMyTUgyMFRFMFN3TVMtaW1hZ2VzXzE3NTk2ODYyMTAxOTZfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwxQnlZWFJwWTJGelJYaDBaVzV6YVc5dWFYTjBZWE5KVmk5a2FXRm5jbUZ0WVY5a1pYWnZjSE0ucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=j4Yqhpw3s7-jvz3oRyikIAxHfK5B6Ep2q3uKGu-s9BeFNqu~CjxT0TdxiLj3jtEuIxYX9q-oa-QtwPC2BUNy9OC4hyE-6SOqSPPUruli3-IevY2JCRmnuZJYgukTBNqPyshGrc06KIv87tXFhqEAhbILTvhKSvOzgRp4aq~YftNwgqV1GVyG8N5T7X-FNu3OQHgyhpMOfngteumwZXGbnbyZebxy~xfpwhXqPp0EpWr1YifC0gOFSXt5E3IRT83BlVDTo3wiGV8EisJLY9RwftdKw2l6SJ8X2~a-Mdl-cjbuMnTBGBz~f28Qwz4Oa~RQcPhGfjbJ0-hhs6H-sA838g__)
+
+
+
+### Escolha da Infraestrutura Cloud
+
+Para a infraestrutura cloud, optou-se pela **Amazon Web Services (AWS)**. Uma descrição detalhada e a justificativa para esta escolha podem ser encontradas no arquivo [infra_cloud.md](infra_cloud.md).
+

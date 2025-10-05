@@ -1,0 +1,50 @@
+@startuml
+
+skinparam cloud {
+  BorderColor black
+  BackgroundColor #white
+}
+
+skinparam node {
+  BorderColor black
+  BackgroundColor #white
+}
+
+skinparam database {
+  BorderColor black
+  BackgroundColor #white
+}
+
+cloud "Internet" as internet
+
+node "DNS (Route 53)" as dns
+node "Load Balancer (ALB)" as lb
+
+node "Serviços de Aplicação (ECS/Kubernetes)" as app_services {
+  component "Backend API" as backend_api
+  component "Worker Services" as worker_services
+}
+
+node "Serviços de Armazenamento" as storage_services {
+  database "Banco de Dados (RDS)" as db
+  folder "Armazenamento de Arquivos (S3)" as s3
+}
+
+node "CDN (CloudFront)" as cdn
+
+internet --> dns : Requisição HTTP/S
+dns --> cdn : Resolução de Domínio
+cdn --> lb : Requisição de Conteúdo Estático
+cdn --> internet : Conteúdo Estático
+
+internet --> lb : Requisição HTTP/S (direta)
+lb --> backend_api : Requisição de API
+
+backend_api --> db : Acesso a Dados
+backend_api --> s3 : Armazenamento/Recuperação
+backend_api --> worker_services : Envio de Tarefas
+
+worker_services --> db : Processamento de Dados
+worker_services --> s3 : Processamento de Arquivos
+
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+package "Sistema Principal" {
+  package "Frontend" {
+    [Interface do Usuário]
+    [Lógica de Apresentação]
+  }
+
+  package "Backend" {
+    [API REST]
+    [Lógica de Negócio]
+    [Serviços de Autenticação]
+  }
+
+  package "Dados" {
+    [Banco de Dados]
+    [Camada de Acesso a Dados]
+  }
+}
+
+package "Serviços Externos" {
+  [Gateway de Pagamento]
+  [Serviço de Email]
+}
+
+"Interface do Usuário" --> "API REST"
+"Lógica de Negócio" --> "Camada de Acesso a Dados"
+"Camada de Acesso a Dados" --> "Banco de Dados"
+"API REST" --> "Serviços de Autenticação"
+"Lógica de Negócio" --> "Gateway de Pagamento"
+"Lógica de Negócio" --> "Serviço de Email"
+
+@enduml

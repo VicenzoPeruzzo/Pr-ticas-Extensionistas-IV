@@ -1,0 +1,66 @@
+@startuml
+
+skinparam defaultFontName Arial
+skinparam defaultFontSize 14
+skinparam component {
+  BorderColor black
+  BackgroundColor #white
+}
+skinparam rectangle {
+  BorderColor black
+  BackgroundColor #white
+}
+skinparam arrow {
+  Thickness 2
+  Color #1874CD
+}
+
+rectangle "Desenvolvimento" as dev {
+  component "Código Fonte (Git)" as code
+  component "IDE" as ide
+}
+
+rectangle "Integração Contínua (CI)" as ci {
+  component "Build (Maven/Gradle)" as build
+  component "Testes Automatizados (JUnit/Selenium)" as tests
+  component "Análise de Código (SonarQube)" as sonar
+}
+
+rectangle "Entrega Contínua (CD)" as cd {
+  component "Empacotamento (Docker)" as package
+  component "Registro de Imagens (Docker Hub/ECR)" as registry
+  component "Orquestração (Kubernetes/ECS)" as orchestrate
+}
+
+rectangle "Implantação" as deploy {
+  component "Infraestrutura como Código (Terraform)" as iac
+  component "Ambientes (Dev/Homolog/Prod)" as envs
+}
+
+rectangle "Operação e Monitoramento" as ops {
+  component "Monitoramento (Prometheus/Grafana)" as monitor
+  component "Logs (ELK Stack)" as logs
+  component "Alertas (PagerDuty)" as alerts
+}
+
+ide --> code : Commits
+code --> ci : Trigger CI
+
+ci --> build : Compilação
+build --> tests : Executa Testes
+tests --> sonar : Análise de Qualidade
+sonar --> cd : Artefato Aprovado
+
+cd --> package : Cria Imagem
+package --> registry : Publica Imagem
+registry --> orchestrate : Implanta Contêineres
+
+orchestrate --> deploy : Provisiona Recursos
+iac --> envs : Configura Ambientes
+
+deploy --> ops : Aplicação em Produção
+ops --> monitor : Coleta Métricas
+monitor --> logs : Agrega Logs
+logs --> alerts : Notifica Incidentes
+
+@enduml
