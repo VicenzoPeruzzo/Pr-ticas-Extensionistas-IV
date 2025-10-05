@@ -4,9 +4,8 @@ Este repositório contém os artefatos da Entrega 1 do projeto de Práticas Exte
 
 ## Integrantes do Grupo
 
-- [Nome do Integrante 1]
-- [Nome do Integrante 2]
-- [Nome do Integrante 3]
+- [Vicenzo Peruzzo]
+- [Vinicius Dalpasquale]
 
 ## Conteúdo da Entrega
 
